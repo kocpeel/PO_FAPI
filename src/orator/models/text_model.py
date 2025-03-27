@@ -1,5 +1,7 @@
 from pydantic import BaseModel
+from typing import Optional
+
 
 class TextModel(BaseModel):
     text: str
-    voice: str = "default"
+    voice: Optional[str] = "default"

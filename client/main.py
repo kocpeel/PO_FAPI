@@ -1,5 +1,6 @@
 import argparse
-from .orator import Orator
+from ..src.orator import Orator
+
 
 def main():
     parser = argparse.ArgumentParser(description="Orator CLI tool")
@@ -26,6 +27,7 @@ def main():
         Orator().record(args.text, args.output_file)
     elif args.command == "read":
         Orator().read_from_file(args.source_file, args.output_file)
+
 
 if __name__ == "__main__":
     main()

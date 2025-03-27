@@ -1,6 +1,7 @@
 import pyttsx3
 import subprocess
 
+
 class Orator:
     def speak(self, text: str):
         engine = pyttsx3.init()
