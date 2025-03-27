@@ -1,2 +1,3 @@
-pyttsx3
-argparse
+fastapi==0.68.0
+pyttsx3==0.3.6
+pydantic==1.8.2
