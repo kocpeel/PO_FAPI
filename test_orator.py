@@ -1,7 +1,7 @@
 import unittest
 from .client.orator import Orator
 
-
+#
 class TestOrator(unittest.TestCase):
 
     def setUp(self):
