@@ -1,5 +1,5 @@
 import argparse
-from ..src.orator import Orator
+from .orator import Orator
 
 
 def main():
